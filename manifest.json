@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Traffic Monitor",
+  "description": "Monitors browser traffic.",
+  "version": "0.1",
+
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "tabs"
+  ],
+  "browser_action": {
+  },
+  "background": {
+    "scripts": [
+        "underscore-min.js",
+        "app.js"
+    ],
+    "persistent": true
+  }
+}
